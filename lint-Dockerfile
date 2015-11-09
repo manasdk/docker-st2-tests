@@ -1,0 +1,3 @@
+FROM base-test-container:latest
+
+CMD cd st2 && git pull && make .lint
